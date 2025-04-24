@@ -169,6 +169,7 @@ a.secondary {
 
 
 .list li {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -176,11 +177,6 @@ a.secondary {
   padding: 0 15px;
   border-bottom: 1px solid #ccc;
 }
-.list .date {
-  display: inline-block;
-  text-align: right;
-}
-
 .category {
   display: inline-block;
   width: 6em;
@@ -190,4 +186,9 @@ a.secondary {
   font-size: 8px;
   text-align: center;
 }
-
+.date {
+  display: block;
+  position: absolute;
+  top: 1em;
+  right: 20px;
+}
