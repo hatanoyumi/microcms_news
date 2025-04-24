@@ -2,7 +2,7 @@ import { client } from "@/libs/microcms";
 import styles from './page.module.css';
 import dayjs from "dayjs";
 
-// ブログ記事の型定義
+// お知らせ記事の型定義
 type Props = {
   id: string;
   title: string;
